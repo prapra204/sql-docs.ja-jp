@@ -94,7 +94,7 @@ ms.locfileid: "33008249"
   
 2.  [標準] ツール バーの **[新しいクエリ]** をクリックします。  
   
-3.  次の例をコピーしてクエリ ウィンドウに貼り付け、 **[実行]** をクリックします。 次の例では、 `PasswordHash` テーブルの `PasswordSalt` および `Person.Password`列に UNIQUE 制約を作成します。  
+3.  次の例をコピーしてクエリ ウィンドウに貼り付け、 **[実行]** をクリックします。 次の例では、 `Person.Password` テーブルの `PasswordHash` および `PasswordSalt`列に UNIQUE 制約を作成します。
   
     ```  
     USE AdventureWorks2012;   
